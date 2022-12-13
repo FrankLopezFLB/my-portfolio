@@ -136,3 +136,48 @@ hr {
   padding: 20px;
   border: solid 2px gray;
 }
+
+/* medias queries*/
+@media screen and (max-width:600px) {
+    .banner {
+        height: 50vh;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding-top: 4rem;
+      }
+      .banner div {
+        margin-left: 20px;
+      }
+      .title {
+        font-size: 3em;
+        font-weight: 500;
+      }
+      .resume {
+        width: 45%;
+        font-weight: 300;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      
+      .btn-primary {
+        color: white;
+        border: none;
+        padding: 15px;
+        background-color: rgb(128, 193, 245);
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-radius: 10px;
+      }
+      .btn-primary:hover {
+        color: azure;
+        background-color: orange;
+      }
+      
+      img {
+        margin-top: 30px;
+        width: 300px;
+        border-radius: 20px;
+      }
+}
